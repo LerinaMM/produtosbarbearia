@@ -97,7 +97,7 @@ main{
 
 form{
   margin: 40px 0;
-}
+  }
 
 form label, form legend{
   display: block;
@@ -105,7 +105,7 @@ form label, form legend{
   margin: 0 0 10px;
 }
 
-input-padrao{
+.input-padrao{
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
@@ -114,6 +114,7 @@ input-padrao{
 
 .checkbox{
   margin: 20px 0;
+  width: 50%;
 }
 
 .enviar{
@@ -123,11 +124,29 @@ input-padrao{
   color:white;
   font-weight: bold;
   font-size:18px;
-  border:none;
+  border: none;
   border-radius: 5px;
-  transition: 1s background;
+  transition: 1s all;
   cursor: pointer;
+}
 
 .enviar:hover {
-  background: red;
+  background:darkorange;
+  transform: scale(1.1);
 }
+
+table{
+  margin: 20px 0 40px;
+}
+
+thead{
+  background:#555555;
+  color:white;
+  font-weight: bold;
+}
+
+td, th{
+  border: 1px solid #000000;
+  padding: 15px 8px;
+}
+
